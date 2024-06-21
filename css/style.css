@@ -44,3 +44,26 @@
     flex-direction: column;
     justify-content: center;
 }
+
+/* Lacak Pengiriman */
+.pin-container {
+    width: 2rem;
+}
+
+.pin-bullet {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+}
+
+.pin-rectangle {
+    display: block;
+    width: 0.2rem;
+    height: 2rem;
+    background-color: black;
+    position: relative;
+    z-index: 4;
+}
