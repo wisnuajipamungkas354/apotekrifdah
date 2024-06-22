@@ -67,3 +67,32 @@
     position: relative;
     z-index: 4;
 }
+
+/* Keranjang */
+/* Chrome, Safari, Edge, Opera */
+input.input-number::-webkit-outer-spin-button,
+input.input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  border: none ;
+  border-inline: 1px solid rgb(165, 165, 165);
+  border-radius: 0;
+  background-color: transparent;
+  text-align: center;
+}
+
+/* Firefox */
+input[type=number].input-number {
+  -moz-appearance: textfield;
+  padding: 0;
+  border: none ;
+  border-inline: 1px solid rgb(165, 165, 165);
+  border-radius: 0;
+  background-color: transparent;
+  text-align: center;
+}
+
+input[type=number].input-number:focus {
+    outline: none;
+}
