@@ -1,0 +1,23 @@
+.daftar-obat{
+    margin-top: 2rem;
+    margin-inline: 6%;
+}
+.hover{
+    transition: all ease .50s;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+.hover:hover{
+    scale: 1.04;
+    border: 1px solid rgb(0, 200, 255);
+
+}
+
+@media screen and (max-width: 750px) {
+    .daftar-obat {
+      margin-inline: 0;
+    }
+  }
